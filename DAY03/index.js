@@ -62,7 +62,7 @@ if (pin===enteredPin){
     
 }
  Balance= 50000;
- let selectedOption=2;
+ let selectedOption=1;
  switch (selectedOption){
     case 1:
         console.log("Your current balance is: " + Balance);
