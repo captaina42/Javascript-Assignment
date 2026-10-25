@@ -25,7 +25,7 @@ function displayStudents() {
 function checkEligibility(student) {
   if (student.age >= 18 && student.score >= 50 && student.paid === true) {
     return "Eligible";
-  } else {
+} else {
     return "Not Eligible";
   }
 }
